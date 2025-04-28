@@ -1,0 +1,43 @@
+.light-mini-item-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    background-color: #e6eeff;
+    border: 1px solid #91b4e1;
+    border-radius: 5px;
+}
+
+.light-mini-item-divider {
+    background-color: #91b4e1;
+    height: 1px;
+    width: 100%;
+}
+
+.light-mini-item-name {
+    width: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow-y: hidden;
+    -webkit-line-clamp: 2;
+    text-align: left;
+    text-decoration: none;
+    padding: 10px;
+    font-family: "Stevie Sans - Book", sans-serif;
+    font-size: 14px;
+    color: #032454;
+    height: 24px;
+    /*background-color: #395cff;*/
+}
+
+
+
+.light-mini-item-price {
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    font-family: "Stevie Sans - Medium", sans-serif;
+    font-size: 18px;
+    color: #032454;
+}

@@ -1,0 +1,97 @@
+.slick-slider {
+    position: relative;
+    width: 100%; /* Make it 100% wide for mobile */
+    height: 100%;
+    margin: 0 0;
+}
+
+/* Style the individual slides */
+.slick-slide {
+    transition: transform 0.3s ease-in-out;
+    outline: none;
+}
+
+/* Style the images within the slides */
+.slick-slide img {
+    width: 100%; /* Ensure the image covers the entire slide */
+    height: fit-content;
+}
+
+.custom-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 16, 37, 0.5);
+    cursor: pointer;
+    border: none;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    z-index: 1;
+    margin: 0 10px 0 10px;
+    display: flex; /* KEEP THIS! IT SPACES ALL PADDING AROUND IMAGE EVENLY*/
+    transition: background-color 0.3s ease;
+}
+
+.light-custom-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(184, 219, 255, 0.8);
+    cursor: pointer;
+    border: none;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    z-index: 1;
+    margin: 0 10px 0 10px;
+    display: flex; /* KEEP THIS! IT SPACES ALL PADDING AROUND IMAGE EVENLY*/
+    transition: background-color 0.3s ease;
+}
+
+.arrow-img {
+    height: auto;
+    width: 25px;
+}
+
+.custom-arrow:hover {
+    background-color: rgba(0, 16, 37, 0.8);
+}
+
+.light-custom-arrow:hover {
+    background-color: rgba(0, 157, 255, 0.82);
+}
+
+
+.custom-prev {
+    position: absolute;
+    left: 0;
+}
+
+.no-select-outline {
+    user-select: none;
+    outline: none;
+}
+
+.custom-next {
+    position: absolute;
+    right: 0;
+}
+
+/*
+ *
+ * MOBILE STYLES
+ *
+ */
+
+@media (max-width: 767px) {
+
+    .slick-slider {
+        width: 100%;
+    }
+
+    .slick-slide img {
+        max-width: 100%;
+        height: auto;
+    }
+}

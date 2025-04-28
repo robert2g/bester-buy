@@ -1,0 +1,260 @@
+.light-inventory-page-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 1000px;
+    color: #032454;
+    font-family: "Stevie Sans - Regular", sans-serif;
+}
+
+.light-inventory-page-header {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #e6eeff;
+    border: 1px solid #91b4e1;
+    border-radius: 5px;
+}
+
+.light-inventory-table-header-frame {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    border-bottom: 1px solid #91b4e1;
+}
+
+.light-inventory-table-header {
+    font-family: "Stevie Sans - Regular", sans-serif;
+    font-size: 24px;
+    color: #032454;
+}
+
+.light-inventory-inputs {
+    color: #032454;
+    display: flex;
+    text-align: start;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    gap: 10px;
+}
+
+.light-inventory-input-box::placeholder {
+    color: #224170;
+}
+
+.light-inventory-input-box, .light-inventory-input-box2, .light-inventory-input-box3 {
+    background-color: #e6eeff;
+    border: 1px solid #91b4e1;
+    color: #032454;
+    border-radius: 5px;
+    padding: 5px;
+    outline: none;
+    font-family: "Stevie Sans - Book", sans-serif;
+    font-size: 15px;
+    width: auto;
+}
+
+.light-add-button, .light-delete-button, .light-update-button {
+    background-color: #e6eeff;
+    border: 1px solid #91b4e1;
+    color: #032454;
+    bottom: 10px;
+    width: 50%;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    font-family: "Stevie Sans - Book", sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.light-add-button:hover, .light-delete-button:hover, .light-update-button:hover {
+    background-color: #abc7ff;
+    border: 1px solid #6b8ebb;
+}
+
+.light-inventory-list-table {
+    width: auto;
+    background-color: #e6eeff;
+    border: 1px solid #91b4e1;
+    border-radius: 5px;
+    overflow-y: auto;
+    height: 100%;
+}
+
+.light-inventory-list-table::-webkit-scrollbar {
+    width: 6px;
+}
+
+.light-inventory-list-table::-webkit-scrollbar-thumb {
+    background-color: #91b4e1;
+    border-radius: 4px;
+}
+
+.light-inventory-table-container {
+    border-collapse: collapse;
+    margin: 10px;
+    width: auto;
+}
+
+.light-inventory-table-container th {
+    border: 1px solid #91b4e1;
+    text-align: left;
+    padding: 5px;
+    overflow-x: hidden;
+    height: 30px;
+}
+
+.light-inventory-table-container td {
+    position: relative;
+    max-width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; /* To Ria, remove this if you want it to show the entire item name in the table cell.*/
+    border: 1px solid #91b4e1;
+    text-align: left;
+    padding: 5px;
+    height: 20px;
+    font-family: "Stevie Sans - Book", sans-serif;
+    font-size: 16px;
+    color: #032454;
+}
+/* NEW CSS (DELETE OUTDATED ABOVE */
+.light-inventory-header-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.light-add-inventory-button, .light-del-inventory-exit {
+    border-radius: 5px;
+    background-color: #e6eeff;
+    border: 1px solid #91b4e1;
+    color: #032454;
+    font-family: "Stevie Sans - Book", sans-serif;
+    font-size: 14px;
+    transition: background-color 0.3s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.light-add-inventory-button:hover, .light-del-inventory-exit:hover {
+    background-color: #abc7ff;
+    border: 1px solid #6b8ebb;
+}
+
+/* FORM CSS */
+.light-add-inventory-form-container {
+    position: relative;
+    background-color: #e6eeff;
+    border: 1px solid #91b4e1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    height: 530px;
+    width: 400px;
+}
+
+.light-del-inventory-form-container {
+    position: relative;
+    background-color: #e6eeff;
+    border: 1px solid #91b4e1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    height: 200px;
+    width: 400px;
+}
+
+.light-edit-inventory-form-container {
+    position: relative;
+    background-color: #e6eeff;
+    border: 1px solid #91b4e1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    height: 600px;
+    width: 400px;
+}
+
+.light-edit-inventory-form-container2 {
+    position: relative;
+    background-color: #e6eeff;
+    border: 1px solid #91b4e1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    height: 800px;
+    width: 400px;
+}
+
+.light-modal-header {
+    display: flex;
+    padding: 15px 0;
+    color: #032454;
+    font-family: "Stevie Sans - Regular", sans-serif;
+    font-size: 24px;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 1px solid #91b4e1;
+}
+
+.light-add-inventory-exit {
+    position: absolute;
+    display: flex;
+    top: 10px;
+    right: 10px;
+    border-radius: 5px;
+    background-color: #e6eeff;
+    border: 1px solid #91b4e1;
+    padding: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.light-del-inventory-exit-btn, .light-add-inventory-exit-btn {
+    background-color: #e6eeff;
+    border: 1px solid #91b4e1;
+    position: absolute;
+    display: flex;
+    top: 10px;
+    right: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.light-add-inventory-exit-btn:hover , .light-del-inventory-exit-btn:hover, .light-add-inventory-exit:hover {
+    background-color: #abc7ff;
+    border: 1px solid #6b8ebb;
+}
+
+.light-add-exit-icon {
+    height: 15px;
+    width: 15px;
+}
+
+.light-edit-inventory-button {
+    border-radius: 5px;
+    background-color: #e6eeff;
+    border: 1px solid #91b4e1;
+    color: #032454;
+    font-family: "Stevie Sans - Book", sans-serif;
+    font-size: 14px;
+    transition: background-color 0.3s ease-in-out;
+    width: 100%;
+    height: 100%;
+}
+
+.light-edit-inventory-button:hover {
+    background-color: #abc7ff;
+    border: 1px solid #6b8ebb;
+}

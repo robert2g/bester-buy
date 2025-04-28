@@ -1,0 +1,127 @@
+/* STEVIE SANS FONT FAMILY */
+
+@font-face {
+    font-family: 'Stevie Sans - Regular';
+    src: url('../fonts/StevieSans/Stevie Sans.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Stevie Sans - Black';
+    src: url('../fonts/StevieSans/Stevie Sans Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Stevie Sans - Bold';
+    src: url('../fonts/StevieSans/Stevie Sans Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Stevie Sans - Book';
+    src: url('../fonts/StevieSans/Stevie Sans Book.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Stevie Sans - Light';
+    src: url('../fonts/StevieSans/Stevie Sans Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Stevie Sans - Medium';
+    src: url('../fonts/StevieSans/Stevie Sans Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Stevie Sans - Thin';
+    src: url('../fonts/StevieSans/Stevie Sans Thin.ttf') format('truetype');
+}
+
+/* ROC GROTESK FONT FAMILY */
+
+/* Please let me know if you would like any RG font family extensions -Rob */
+
+@font-face {
+    font-family: 'Roc Grotesk - Black';
+    src: url('../fonts/RocGrotesk/Kostic - Roc Grotesk Black.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roc Grotesk - Bold';
+    src: url('../fonts/RocGrotesk/Kostic - Roc Grotesk Bold.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roc Grotesk - Extra Bold';
+    src: url('../fonts/RocGrotesk/Kostic - Roc Grotesk ExtraBold.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roc Grotesk - Extra Light';
+    src: url('../fonts/RocGrotesk/Kostic - Roc Grotesk ExtraLight.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roc Grotesk - Heavy';
+    src: url('../fonts/RocGrotesk/Kostic - Roc Grotesk Heavy.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roc Grotesk - Light';
+    src: url('../fonts/RocGrotesk/Kostic - Roc Grotesk Light.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roc Grotesk - Medium';
+    src: url('../fonts/RocGrotesk/Kostic - Roc Grotesk Medium.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roc Grotesk - Regular';
+    src: url('../fonts/RocGrotesk/Kostic - Roc Grotesk Regular.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roc Grotesk - Thin';
+    src: url('../fonts/RocGrotesk/Kostic - Roc Grotesk Thin.otf') format('truetype');
+}
+
+/* TUSKER GROTESK FONT FAMILY */
+
+@font-face {
+    font-family: 'Tusker Grotesk - 5500';
+    src: url('../fonts/TuskerGrotesk/TuskerGrotesk-5500Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Tusker Grotesk - 5600';
+    src: url('../fonts/TuskerGrotesk/TuskerGrotesk-5600Semibold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Tusker Grotesk - 5700';
+    src: url('../fonts/TuskerGrotesk/TuskerGrotesk-5700Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Tusker Grotesk - 5800';
+    src: url('../fonts/TuskerGrotesk/TuskerGrotesk-5800Super.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Tusker Grotesk - 6500';
+    src: url('../fonts/TuskerGrotesk/TuskerGrotesk-6500Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Tusker Grotesk - 6600';
+    src: url('../fonts/TuskerGrotesk/TuskerGrotesk-6600Semibold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Tusker Grotesk - 6700';
+    src: url('../fonts/TuskerGrotesk/TuskerGrotesk-6700Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Tusker Grotesk - 6800';
+    src: url('../fonts/TuskerGrotesk/TuskerGrotesk-6800Super.ttf') format('truetype');
+}

@@ -1,0 +1,88 @@
+.light-cart-func-container {
+    display: flex;
+    flex-direction: column;
+    color: #B6CDF2;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.light-cart-func-header-text {
+    font-family: "Stevie Sans - Book", sans-serif;
+    font-size: 30px;
+    color: #001025;
+}
+
+.light-cart-header-separator {
+    height: 1px;
+    background-color: #91b4e1;
+    margin: 20px 0;
+}
+
+.light-cart-subtotal, .light-cart-tax, .light-cart-discount-deduction {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    font-family: "Stevie Sans - Book", sans-serif;
+    font-size: 20px;
+    color: #001025;
+    align-items: center;
+}
+
+.light-cart-subtotal-price, .light-cart-tax-price {
+    color: #002e6c;
+}
+
+.light-cart-total {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    font-family: "Stevie Sans - Book", sans-serif;
+    font-size: 22px;
+    color: #395cff;
+    align-items: center;
+}
+
+.light-cart-purchase-separator {
+    height: 1px;
+    background-color: #91b4e1;
+    margin: 10px 0;
+}
+
+.light-cart-discount-input, .light-cart-discount-button {
+    background-color: #e6eeff;
+    border: 1px solid #91b4e1;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: "Stevie Sans - Book", sans-serif;
+    color: #002e6c;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.light-cart-discount-button:hover {
+    background-color: #abc7ff;
+    border: 1px solid #6b8ebb;
+}
+
+.light-cart-checkout-button {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: #e6eeff;
+    border: 1px solid #91b4e1;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 24px;
+    font-family: "Stevie Sans - Book", sans-serif;
+    color: #001025;
+    transition: background-color 0.3s ease-in-out;
+    box-shadow: 0 0 10px rgba(0, 46, 108, 0);
+}
+
+.light-cart-checkout-button:hover {
+    background-color: #abc7ff;
+    border: 1px solid #6b8ebb;
+    box-shadow: 0 0 20px rgba(86, 163, 255, 0.25);
+}

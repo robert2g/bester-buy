@@ -1,0 +1,59 @@
+.mini-item-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    background-color: #001025;
+    border: 1px solid #002e6c;
+    border-radius: 5px;
+}
+
+.mini-item-wrapper {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: auto;
+}
+
+.mini-item-divider {
+    background-color: #002e6c;
+    height: 1px;
+    width: 100%;
+}
+
+.mini-item-image {
+    border-radius: 5px;
+    margin: 10px;
+    display: flex;
+    width: 90%;
+    height: fit-content;
+}
+
+.mini-item-name {
+    width: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow-y: hidden;
+    -webkit-line-clamp: 2;
+    text-align: left;
+    text-decoration: none;
+    padding: 10px;
+    font-family: "Stevie Sans - Book", sans-serif;
+    font-size: 14px;
+    color: #B6CDF2;
+    height: 24px;
+    /*background-color: #395cff;*/
+}
+
+
+.mini-item-price {
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    font-family: "Stevie Sans - Medium", sans-serif;
+    font-size: 18px;
+    color: #64beff;
+}

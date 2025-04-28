@@ -1,0 +1,55 @@
+.light-query-container {
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e8f1ff;
+}
+
+.light-content-header {
+    font-family: "Stevie Sans - Book", sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    color: #001025;
+}
+
+.light-query-body {
+    margin-top: 20px;
+    border-top: 1px solid #91b4e1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 1600px;
+    width: 100%;
+}
+
+.query-filter {
+    height: auto;
+    max-width: 400px;
+    width: 100%;
+    background-color: #032454;
+}
+
+.light-sorting-dropdown {
+    padding: 10px 10px 10px 10px;
+    height: fit-content;
+    width: fit-content;
+    font-family: "Stevie Sans - Book", sans-serif;
+    font-size: 16px;
+    color: #032454;
+    background-color: #e6eeff;
+    border: 1px solid #91b4e1;
+    border-radius: 5px;
+}
+
+select:hover, select:focus {
+    border: 1px solid #64beff;
+    box-shadow: 0 0 5px rgba(100, 190, 255, 0.5);
+}
+
+.light-sorting-by {
+    font-family: "Stevie Sans - Regular", sans-serif;
+    font-size: 18px;
+    color: #001025;
+    margin-right: 10px;
+}

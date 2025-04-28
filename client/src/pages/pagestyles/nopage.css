@@ -1,0 +1,49 @@
+.nopage-container {
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nopage-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1800px;
+    height: 100%;
+    margin: 0 60px 0 60px;
+}
+
+.nopage-image {
+    height: 80px;
+    width: 80px;
+    padding-top: 100px;
+    transition: filter 0.5s ease;
+}
+
+.nopage-image:hover {
+    filter: drop-shadow(1px 1px 3px #536f98);
+}
+
+.nopage-code {
+    /*background-color: #051d3b;*/
+    font-family: "Tusker Grotesk - 5500", sans-serif;
+    color: #B6CDF2;
+    font-size: 120px;
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+    filter: drop-shadow(1px 1px 3px #536f98);
+}
+
+.nopage-text{
+    /*background-color: #051d3b;*/
+    font-family: "Stevie Sans - Light", sans-serif;
+    color: #B6CDF2;
+    font-size: 20px;
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,348 @@
+/* Footer Styles */
+.footer-container {
+    z-index: 1;
+    background: linear-gradient(to right, #010914, #020e1f);
+    border-top: 1px solid #032454;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    flex-direction: column;
+    position: relative;
+}
+
+.footer-wrapper {
+    margin: 30px;
+    display: flex;
+    width: 100%;
+    max-width: 1800px;
+    height: 100%;
+    flex-direction: column;
+}
+
+.footer-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: fit-content;
+    position: relative;
+}
+
+.footer-body {
+    margin: 10px;
+    width: fit-content;
+    display: flex;
+    height: 400px;
+}
+
+/* Social Styles */
+
+.social-links {
+    display: flex;
+    height: 50px;
+    width: fit-content;
+}
+
+.social-container {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-wrapper {
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 45px;
+    display: flex;
+}
+
+.social-image {
+    height: 26px;
+    width: 26px;
+    filter: initial;
+    transition: filter 0.5s ease;
+}
+
+.social-image:hover {
+    filter: drop-shadow(1px 1px 3px #536f98);
+}
+
+/* Tail Styles */
+.company-tail {
+    border-top: 1px solid #032454;
+    height: 64px;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+}
+
+/* Wordmark Styles */
+.wordmark-container {
+    padding-left: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: fit-content;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+}
+
+.besterbuy-wordmark {
+    height: 30px;
+    filter: initial;
+    transition: filter 0.5s ease;
+}
+
+.besterbuy-wordmark-footer {
+    height: 30px;
+    filter: initial;
+    transition: filter 0.5s ease;
+}
+
+.besterbuy-wordmark:hover, .besterbuy-wordmark-footer:hover {
+    filter: drop-shadow(1px 1px 3px #536f98);
+}
+
+/* EmailSubmission Styles */
+.email-container {
+    height: 100%;
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.email-title {
+    font-family: "Stevie Sans - Medium", sans-serif;
+    color: #B6CDF2;
+    margin: 20px 0;
+}
+
+.email-desc {
+    font-family: "Stevie Sans - Light", sans-serif;
+    color: #B6CDF2;
+    margin: 20px 0;
+}
+
+.email-submit {
+    background-color: #010914;
+    border: 1px solid #032454;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    margin: 40px 0;
+}
+
+.email-input {
+    background-color: #010914;
+    border: none;
+    font-family: "Stevie Sans - Book", sans-serif;
+    font-size: 18px;
+    color: #B6CDF2;
+    width: 75%;
+    padding: 15px;
+    height: auto;
+}
+
+.email-input:focus {
+    outline: none;
+}
+
+.email-input::placeholder {
+    color: #224170;
+}
+
+.email-button {
+    background-color: #010914;
+    font-family: "Stevie Sans - Book", sans-serif;
+    font-size: 18px;
+    color: #B6CDF2;
+    border: none;
+    cursor: pointer;
+    transition: color 0.5s ease;
+    padding-right: 15px;
+}
+
+.email-button:hover {
+    color: #64beff;
+}
+
+/* Directory Styles */
+.directory-container {
+    position: relative;
+    display: flex;
+    height: 100%;
+    width: fit-content;
+}
+
+.directory-column {
+    margin-right: 60px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: fit-content;
+}
+
+.column-title {
+    font-family: "Stevie Sans - Regular", sans-serif;
+    color: #3a73bd;
+    height: 30px;
+    width: fit-content;
+}
+
+.column-link {
+    font-family: "Stevie Sans - Book", sans-serif;
+    color: #B6CDF2;
+    height: 30px;
+    width: fit-content;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    white-space: nowrap;
+}
+
+.column-link:hover {
+    color: #64beff;
+    text-decoration: underline;
+}
+
+/* Tail Styles */
+.tail-container {
+    display: flex;
+    background: linear-gradient(to right, #010914, #020e1f);
+    height: 50px;
+    width: 100%;
+    max-width: 1800px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+.tail-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.tail-router-link {
+    display: flex;
+    padding: 0 20px 0 20px;
+    text-decoration: underline;
+    align-items: center;
+    color: #64beff;
+    justify-content: center;
+    height: 100%;
+    font-family: "Stevie Sans - Light", sans-serif;
+    font-size: 14px;
+}
+
+.company-text {
+    font-family: "Stevie Sans - Light", sans-serif;
+    font-size: 14px;
+    color: #B6CDF2;
+    padding: 0 20px 0 0;
+}
+
+/*
+ *
+ * MOBILE STYLES
+ *
+ */
+
+/*.footer-mobile {*/
+/*    display: none;*/
+/*    background-color: #021125;*/
+/*    margin: 0 60px 0 60px;*/
+/*    width: 100%;*/
+/*    max-width: 1500px;*/
+/*    height: 100%;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*}*/
+
+/*.mobile-socials {*/
+/*    position: relative;*/
+/*    top: 100px;*/
+/*}*/
+
+/*.mobile-email {*/
+/*    position: relative;*/
+/*    top: 150px;*/
+/*    width: 100%;*/
+/*    justify-content: center;*/
+/*    display: flex;*/
+/*}*/
+
+/*.mobile-tail {*/
+/*    display: none;*/
+/*    height: fit-content;*/
+/*    width: 100%;*/
+/*}*/
+
+/*.mobile-tail-container {*/
+/*    display: flex;*/
+/*    background: linear-gradient(to right, #010914, #020e1f);*/
+/*    height: fit-content;*/
+/*    width: 100%;*/
+/*    max-width: 1500px;*/
+/*    align-items: center;*/
+/*    justify-content: flex-start;*/
+/*    margin-right: 15px;*/
+/*    margin-left: 15px;*/
+/*}*/
+
+/*.mobile-tail-wrapper {*/
+/*    height: fit-content;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*}*/
+
+/*.mobile-tail-links {*/
+/*    display: flex;*/
+/*}*/
+
+/*.mobile-tail-link {*/
+/*    font-family: "Stevie Sans - Light", sans-serif;*/
+/*    font-size: 14px;*/
+/*    color: #64beff;*/
+/*    margin-right: 30px;*/
+/*}*/
+
+/*!* WHEN MOBILE IS ACTIVE *!*/
+
+/*@media screen and (max-width: 1300px) { !* NOTE TO DEVS: ALTERING THIS VALUE WILL CHANGE THE MOBILE PIVOT *!*/
+
+/*    .footer-container {*/
+/*        padding: 0;*/
+/*    }*/
+
+/*    .footer-mobile {*/
+/*        display: flex;*/
+/*    }*/
+
+/*    .mobile-directory {*/
+/*        position: relative;*/
+/*        top: 200px;*/
+/*    }*/
+
+/*    .footer-wrapper {*/
+/*        display: none;*/
+/*    }*/
+
+/*    .company-tail {*/
+/*        display: none;*/
+/*    }*/
+
+/*    .mobile-tail {*/
+/*        display: flex;*/
+/*    }*/
+
+/*}*/

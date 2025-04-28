@@ -1,0 +1,514 @@
+/* App.js Styles */
+.app-container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header Styles */
+.light-header-container {
+    background-color: #dcebff;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+    color: #B6CDF2;
+    font-family: "Stevie Sans - Light", sans-serif;
+    font-size: 16px;
+    filter: initial;
+    transition: filter 0.5s ease;
+}
+
+.light-announcement-text {
+    color: #021125;
+    font-family: "Stevie Sans - Light", sans-serif;
+    font-size: 16px;
+    filter: initial;
+    transition: filter 0.5s ease;
+}
+
+.light-announcement-text:hover {
+    filter: drop-shadow(1px 1px 3px #021125);
+}
+
+/* Taskbar Styles */
+.light-taskbar-container {
+    background: linear-gradient(to right, #e8f1ff, #ffffff);
+    border-bottom: 1px solid #b5c8ec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+    position: sticky;
+    top: 0;
+    z-index: 6;
+}
+
+.task-router-link {
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.taskbar-wrapper {
+    display: flex;
+    margin: 0 60px 0 60px;
+    height: 100%;
+    width: 100%;
+    max-width: 1800px;
+    justify-content: space-between;
+}
+
+.icon-container {
+    height: 100%;
+    display: flex;
+    position: relative;
+    right: 0;
+}
+
+.button-container {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    row-gap: 30px;
+}
+
+.light-bar-button {
+    height: 100%;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Stevie Sans - Book", sans-serif;
+    font-size: 16px;
+    color: #021125;
+    transition: color 0.3s ease-in-out;
+    padding: 0 20px 0 20px;
+}
+
+.light-bar-button:hover .light-taskbar-flyout, .light-taskbar-flyout:hover {
+    display: flex;
+}
+
+.light-bar-button:hover {
+    color: #395cff;
+    cursor: pointer;
+}
+
+.light-taskbar-flyout {
+    background: linear-gradient(to right, #e8f1ff, #ffffff);
+    border-top: 1px solid #b5c8ec;
+    border-bottom: 1px solid #b5c8ec;
+    display: none;
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    top: 64px;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+}
+
+.flyout-wrapper {
+    max-width: 1500px;
+    width: 100%;
+    height: 80%;
+    /*background-color: #032454;*/
+    display: flex;
+    justify-content: space-between;
+    z-index: 10;
+}
+
+.flyout-column1 {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 100%;
+    /*background-color: #0c326b;*/
+    /*border: 1px solid red;*/
+}
+
+.flyout-column2 {
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+    height: 270px;
+    /*background-color: #0c326b;*/
+    /*border: 1px solid red;*/
+}
+
+.light-flyout-header {
+    display: flex;
+    align-items: center;
+    /*justify-content: center;*/
+    height: 40px;
+    width: 100%;
+    font-family: "Stevie Sans - Regular", sans-serif;
+    font-size: 20px;
+    color: #021125;
+    padding-bottom: 5px;
+}
+
+.light-flyout-link {
+    transition: color 0.3s ease-in-out;
+    padding: 5px 0;
+    color: #002e6c;
+    font-family: "Stevie Sans - Book", sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.light-flyout-link:hover {
+    color: #395cff;
+}
+
+.light-special-link {
+    transition: color 0.3s ease-in-out;
+    padding: 10px 0;
+    color: #002e6c;
+    font-family: "Stevie Sans - Book", sans-serif;
+    font-size: 18px;
+}
+
+.light-special-link:hover {
+    color: #395cff;
+}
+
+.light-flyout-image-frame {
+    background-color: #B6CDF2;
+    width: 100%;
+    height: 250px;
+}
+
+.category-column {
+    width: 20%;
+    height: 100%;
+    /*background-color: #3775ce;*/
+}
+
+.featured-item {
+    width: 30%;
+    height: 100%;
+    /*background-color: #1b56ab;*/
+}
+
+/* Wordmark Styles */
+.wordmark-container {
+    padding-left: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: fit-content;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+}
+
+.besterbuy-wordmark {
+    height: 30px;
+    filter: initial;
+    transition: filter 0.5s ease;
+}
+
+.besterbuy-wordmark-footer {
+    height: 30px;
+    filter: initial;
+    transition: filter 0.5s ease;
+}
+
+.besterbuy-wordmark:hover, .besterbuy-wordmark-footer:hover {
+    filter: drop-shadow(1px 1px 3px #536f98);
+}
+
+/* Search Styles */
+.search-container {
+    height: 100%;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+}
+
+.search-icon {
+    height: 28px;
+    padding-left: 5px;
+    padding-right: 5px;
+    filter: initial;
+    transition: filter 0.5s ease;
+    cursor: pointer;
+}
+
+.search-icon:hover {
+    filter: drop-shadow(1px 1px 3px #536f98);
+}
+
+/* Account Styles */
+.account-container {
+    height: 100%;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+}
+
+.account-icon {
+    height: 28px;
+    padding-left: 5px;
+    padding-right: 5px;
+    filter: initial;
+    transition: filter 0.5s ease;
+    cursor: pointer;
+}
+
+.account-icon:hover {
+    filter: drop-shadow(1px 1px 3px #536f98);
+}
+
+/* Shopping Bag Styles */
+.shopping-container {
+    height: 100%;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+}
+
+.shopping-icon {
+    height: 28px;
+    padding-left: 5px;
+    padding-right: 5px;
+    filter: initial;
+    transition: filter 0.5s ease;
+    cursor: pointer;
+}
+
+.shopping-icon:hover {
+    filter: drop-shadow(1px 1px 3px #536f98);
+}
+
+/* Mode Styles */
+.mode-container {
+    height: 100%;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+}
+
+.mode-icon {
+    height: 24px;
+    padding-left: 5px;
+    padding-right: 5px;
+    filter: initial;
+    transition: filter 0.5s ease;
+    cursor: pointer;
+}
+
+.mode-icon:hover {
+    filter: drop-shadow(1px 1px 3px #536f98);
+}
+
+/* Overlay Styles */
+
+.overlay {
+    display: flex;
+    position: absolute;
+    top: 65px;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.5;
+    background-color: #000000;
+    transition: opacity 0.3s ease-in-out;
+    pointer-events: none;
+    z-index: 4;
+}
+
+.slide-overlay {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.5;
+    background-color: #000000;
+    transition: opacity 0.3s ease-in-out;
+    pointer-events: none;
+    z-index: 6;
+}
+
+/* Sliding Div Styles */
+
+.light-sliding-div {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: -450px;
+    background: linear-gradient(to right, #e8f1ff, #ffffff);
+    border-left: 1px solid #b5c8ec;
+    transition: right 0.3s ease-in-out;
+    z-index: 20;
+    overflow-y: auto;
+}
+
+.light-sliding-div2 {
+    display: flex;
+    width: 450px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: -450px;
+    background: linear-gradient(to right, #e8f1ff, #ffffff);
+    border-left: 1px solid #b5c8ec;
+    transition: right 0.3s ease-in-out;
+    z-index: 20;
+}
+
+.visible {
+    right: 0;
+}
+
+.hidden {
+    right: -450px;
+}
+
+.light-div-exit {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    border-radius: 5px;
+    background-color: #e6eeff;
+    border: 1px solid #91b4e1;
+    transition: background-color .3s ease-in-out;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.light-div-exit:hover {
+    background-color: #abc7ff;
+    border: 1px solid #6b8ebb;
+}
+
+.content1 {
+    height: 50px;
+    width: 50px;
+    background-color: #FFFFFF;
+}
+
+.exit-icon {
+    height: 25px;
+    width: 25px;
+}
+
+/* This fixes the router alterations on style */
+
+.router-link {
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+}
+
+.order-number-circle {
+    pointer-events: none;
+}
+
+.order-number {
+    font-family: "Stevie Sans - Regular", sans-serif;
+}
+
+/*
+ *
+ * MOBILE STYLES
+ *
+ */
+
+.mobile-menu {
+    background-color: transparent;
+    border: none;
+    display: none;
+    height: 100%;
+    width: fit-content;
+}
+
+.mobile-header {
+    position: relative;
+    top: 50px;
+}
+
+.light-account-circle {
+    display: inline-block;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background-color: #B6CDF2;
+    color: #001025;
+    font-family: "Stevie Sans - Regular", sans-serif;
+    font-size: 18px;
+    text-decoration: none !important;
+}
+
+/* WHEN MOBILE IS ACTIVE */
+
+/*@media screen and (max-width: 1300px)*/
+
+/*    .button-container {*/
+/*        display: none;*/
+/*    }*/
+
+/*    .mobile-menu {*/
+/*        display: flex;*/
+/*        align-items: center;*/
+/*        justify-content: center;*/
+/*    }*/
+
+/*    .menu-icon {*/
+/*        height: 30px;*/
+/*        padding-left: 5px;*/
+/*    }*/
+
+/*    .search-icon {*/
+/*        height: 26px;*/
+/*        padding: 5px;*/
+/*    }*/
+
+/*    .shopping-icon {*/
+/*        height: 26px;*/
+/*    }*/
+
+/*    .account-container {*/
+/*        display: none;*/
+/*    }*/
+
+/*    .besterbuy-wordmark {*/
+/*        height: 26px;*/
+/*        position: absolute;*/
+/*        top: 50%;*/
+/*        left: 50%;*/
+/*        transform: translate(-50%, -50%);*/
+/*    }*/
+
+/*    .taskbar-wrapper {*/
+/*        margin: 0 10px 0 10px;*/
+/*    }*/
+/*}*/

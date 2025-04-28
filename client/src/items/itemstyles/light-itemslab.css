@@ -1,0 +1,79 @@
+.light-slab-item-container {
+    display: flex;
+    height: auto;
+    width: 100%;
+    border-bottom: 1px solid #91b4e1;
+    justify-content: space-between;
+}
+
+.light-slab-item-name {
+    font-family: "Stevie Sans - Regular", sans-serif;
+    font-size: 16px;
+    color: #001025;
+    text-decoration: none;
+}
+
+.light-slab-item-name:hover {
+    color: #395cff;
+    text-decoration: underline;
+}
+
+.light-slab-item-spec-list {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    font-family: "Stevie Sans - Book", sans-serif;
+    font-size: 15px;
+    color: #002e6c;
+}
+
+.light-slab-add-to-cart {
+    position: relative;
+    color: #032454;
+    background-color: #e6eeff;
+    border: 1px solid #91b4e1;
+    border-radius: 5px;
+    font-family: "Stevie Sans - Book", sans-serif;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+    padding: 10px;
+    margin-top: 100px;
+    max-width: 250px;
+    width: 100%;
+}
+
+.light-slab-add-to-cart:hover {
+    color: #032454;
+    background-color: #abc7ff;
+    border: 1px solid #6b8ebb;
+}
+
+.light-slab-quantity-box {
+    font-family: "Stevie Sans - Book", sans-serif;
+    font-size: 15px;
+    color: #001025;
+    padding-bottom: 5px;
+}
+
+.light-slab-item-price {
+    color: #25368a;
+    font-family: "Stevie Sans - Bold", sans-serif;
+    font-size: 32px;
+    padding-bottom: 5px;
+}
+
+.light-slab-discount-noti {
+    background-color: #395cff;
+    border-radius: 5px;
+    width: fit-content;
+    color: #FFFFFF;
+    font-family: "Stevie Sans - Book", sans-serif;
+    font-size: 15px;
+    padding: 6px;
+}
+
+.light-slab-item-about-description {
+    color: #032454;
+    font-family: "Stevie Sans - Book", sans-serif;
+    font-size: 14px;
+}

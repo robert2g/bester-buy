@@ -1,0 +1,15 @@
+.results-container {
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #010914;
+}
+
+.light-results-container {
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e8f1ff;
+}

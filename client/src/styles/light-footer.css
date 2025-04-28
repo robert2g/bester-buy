@@ -1,0 +1,129 @@
+/* Footer Styles */
+.light-footer-container {
+    z-index: 1;
+    background: linear-gradient(to right, #e8f1ff, #ffffff);
+    border-top: 1px solid #b5c8ec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    flex-direction: column;
+    position: relative;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+/* Social Styles */
+
+.social-image:hover {
+    filter: drop-shadow(1px 1px 3px #536f98);
+}
+
+/* Tail Styles */
+.light-company-tail {
+    border-top: 1px solid #b5c8ec;
+    height: 64px;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+}
+
+.besterbuy-wordmark:hover, .besterbuy-wordmark-footer:hover {
+    filter: drop-shadow(1px 1px 3px #536f98);
+}
+
+/* EmailSubmission Styles */
+.email-container {
+    height: 100%;
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.email-title {
+    font-family: "Stevie Sans - Medium", sans-serif;
+    color: #B6CDF2;
+    margin: 20px 0;
+}
+
+.email-desc {
+    font-family: "Stevie Sans - Light", sans-serif;
+    color: #B6CDF2;
+    margin: 20px 0;
+}
+
+.email-submit {
+    background-color: #010914;
+    border: 1px solid #032454;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    margin: 40px 0;
+}
+
+.email-input {
+    background-color: #010914;
+    border: none;
+    font-family: "Stevie Sans - Book", sans-serif;
+    font-size: 18px;
+    color: #B6CDF2;
+    width: 75%;
+    padding: 15px;
+    height: auto;
+}
+
+.email-input::placeholder {
+    color: #224170;
+}
+
+.email-button {
+    background-color: #010914;
+    font-family: "Stevie Sans - Book", sans-serif;
+    font-size: 18px;
+    color: #B6CDF2;
+    border: none;
+    cursor: pointer;
+    transition: color 0.5s ease;
+    padding-right: 15px;
+}
+
+.email-button:hover {
+    color: #64beff;
+}
+
+.light-column-link {
+    font-family: "Stevie Sans - Book", sans-serif;
+    color: #002e6c;
+    height: 30px;
+    width: fit-content;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    white-space: nowrap;
+}
+
+.light-column-link:hover {
+    color: #395cff;
+    text-decoration: underline;
+}
+
+.light-tail-router-link {
+    display: flex;
+    padding: 0 20px 0 20px;
+    text-decoration: underline;
+    align-items: center;
+    color: #395cff;
+    justify-content: center;
+    height: 100%;
+    font-family: "Stevie Sans - Light", sans-serif;
+    font-size: 14px;
+}
+
+.light-company-text {
+    font-family: "Stevie Sans - Light", sans-serif;
+    font-size: 14px;
+    color: #021125;
+    padding: 0 20px 0 0;
+}

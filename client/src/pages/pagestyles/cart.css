@@ -1,0 +1,128 @@
+.cart-func-container {
+    display: flex;
+    flex-direction: column;
+    color: #B6CDF2;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.cart-func-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 20px;
+    /*background-color: #00469f;*/
+}
+
+.cart-func-header {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    height: 55px;
+}
+
+.cart-func-header-text {
+    font-family: "Stevie Sans - Book", sans-serif;
+    font-size: 30px;
+    color: #B6CDF2;
+}
+
+.cart-items-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    height: fit-content;
+}
+
+.cart-header-separator {
+    height: 1px;
+    background-color: #00469f;
+    margin: 20px 0;
+}
+
+.cart-items-purchase {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+}
+
+.cart-subtotal, .cart-tax, .cart-discount-deduction {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    font-family: "Stevie Sans - Book", sans-serif;
+    font-size: 20px;
+    color: #B6CDF2;
+    align-items: center;
+}
+
+.cart-subtotal-price, .cart-tax-price {
+    color: #64beff;
+}
+
+.cart-total {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    font-family: "Stevie Sans - Book", sans-serif;
+    font-size: 22px;
+    color: #64beff;
+    align-items: center;
+}
+
+.cart-purchase-separator {
+    height: 1px;
+    background-color: #00469f;
+    margin: 10px 0;
+}
+
+.cart-total-price {
+    font-family: "Stevie Sans - Regular", sans-serif;
+    font-size: 24px;
+}
+
+.cart-discount-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 5px 0;
+}
+
+.cart-discount-input, .cart-discount-button {
+    background-color: #001025;
+    border: 1px solid #002e6c;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: "Stevie Sans - Book", sans-serif;
+    color: #64beff;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.cart-discount-button:hover {
+    background-color: #002e6c;
+}
+
+.cart-checkout-button {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: #001025;
+    border: 1px solid #002e6c;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 24px;
+    font-family: "Stevie Sans - Book", sans-serif;
+    color: #64beff;
+    transition: background-color 0.3s ease-in-out;
+    box-shadow: 0 0 10px rgba(0, 46, 108, 0);
+}
+
+.cart-checkout-button:hover {
+    background-color: #002659;
+    box-shadow: 0 0 20px rgba(0, 46, 108, 0.25);
+}

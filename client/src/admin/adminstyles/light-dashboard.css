@@ -1,0 +1,204 @@
+.light-dashboard-header {
+    display: flex;
+    color: #032454;
+    background-color: #e6eeff;
+    border: 1px solid #91b4e1;
+    border-radius: 5px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Stevie Sans - Regular", sans-serif;
+    font-size: 24px;
+}
+
+.light-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+.light-card:first-child {
+    background: linear-gradient(30deg, #e6eeff, #ffc8e4);
+    border: 1px solid #91b4e1;
+}
+
+.light-card:nth-child(2) {
+    background: linear-gradient(30deg, #e6eeff, #c5ccff);
+    border: 1px solid #91b4e1;
+}
+
+.light-card:nth-child(3) {
+    background: linear-gradient(30deg, #e6eeff, #ffe1d5);
+    border: 1px solid #91b4e1;
+}
+
+.light-card:nth-child(4) {
+    background: linear-gradient(30deg, #e6eeff, #e0c3ff);
+    border: 1px solid #91b4e1;
+}
+
+.light-card-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e6eeff;
+    border: 1px solid #91b4e1;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.light-card-title {
+    font-family: "Stevie Sans - Book", sans-serif;
+    font-size: 24px;
+    color: #032454;
+    margin: 0;
+}
+
+.light-card-data-amount {
+    display: flex;
+    font-family: "Stevie Sans - Regular", sans-serif;
+    font-size: 32px;
+    color: #032454;
+    margin-top: 15px;
+}
+
+.light-dash-discount-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(30deg, #001025, #001025);
+    border: 1px solid #002e6c;
+    border-radius: 5px;
+    padding: 10px;
+    width: auto;
+    height: 400px;
+}
+
+.light-dash-functions-header {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #e6eeff;
+    border: 1px solid #91b4e1;
+    border-radius: 5px;
+    font-family: "Stevie Sans - Regular", sans-serif;
+    font-size: 24px;
+    color: #032454;
+}
+
+.light-dash-discount-container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #e6eeff;
+    border: 1px solid #91b4e1;
+    border-radius: 5px;
+    height: 400px;
+    width: 30%;
+}
+
+.light-dash-form-title {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #e6eeff;
+    border: 1px solid #91b4e1;
+    border-radius: 5px;
+    font-family: "Stevie Sans - Book", sans-serif;
+    font-size: 16px;
+    color: #032454;
+}
+
+.light-dash-form-button {
+    padding: 5px;
+    margin-bottom: 20px;
+    background-color: #e6eeff;
+    border: 1px solid #91b4e1;
+    border-radius: 5px;
+    display: flex;
+    color: #032454;
+    font-family: "Stevie Sans - Book", sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.light-dash-form-button:hover {
+    background-color: #abc7ff;
+    border: 1px solid #6b8ebb;
+}
+
+.light-dash-form-input {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+    background-color: #e6eeff;
+    border: 1px solid #91b4e1;
+    border-radius: 5px;
+    color: #032454;
+    font-family: "Stevie Sans - Book", sans-serif;
+    font-size: 16px;
+    width: auto;
+}
+
+.light-dash-form-noti {
+    margin: 15px 0;
+    padding: 10px;
+    background-color: #e6eeff;
+    border: 1px solid #91b4e1;
+    border-radius: 5px;
+}
+
+.light-dash-discount-table {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #e6eeff;
+    border: 1px solid #91b4e1;
+    border-radius: 5px;
+    height: 400px;
+    width: 70%;
+    text-align: left;
+    overflow-y: auto;
+}
+
+.light-dash-table-descriptors {
+    font-family: "Stevie Sans - Book", sans-serif;
+    font-size: 18px;
+    color: #001025;
+}
+
+.light-discount-table-container {
+    border-collapse: collapse;
+}
+
+.light-discount-table-container th {
+    border: 1px solid #91b4e1;
+    text-align: left;
+    padding: 5px;
+    overflow-x: hidden;
+    width: 25%;
+    height: 30px;
+}
+
+.light-discount-table-container td {
+    position: relative;
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; /* To Ria, remove this if you want it to show the entire item name in the table cell.*/
+    border: 1px solid #91b4e1;
+    text-align: left;
+    padding: 5px;
+    height: 20px;
+    font-family: "Stevie Sans - Book", sans-serif;
+    font-size: 16px;
+    color: #032454;
+}

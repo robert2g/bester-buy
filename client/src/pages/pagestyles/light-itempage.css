@@ -1,0 +1,135 @@
+.light-item-page-container {
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e6eeff;
+}
+
+.light-item-page-header {
+    display: flex;
+    align-items: center;
+    /*background-color: #001025;*/
+    border-bottom: 1px solid #b5c8ec;
+    height: 60px;
+    width: 100%;
+}
+
+.light-item-header-text {
+    font-family: "Stevie Sans - Regular", sans-serif;
+    color: #032454;
+    padding: 10px;
+}
+
+.light-page-item-image-frame {
+    border-radius: 10px;
+    background-color: #e6eeff;
+    border: 1px solid #91b4e1;
+    padding: 10px;
+    margin-bottom: 10px;
+    transition: background-color, border 0.2s ease-in-out;
+}
+
+.light-page-item-image-frame:focus {
+    background-color: #abc7ff;
+    border: 1px solid #6b8ebb;
+}
+
+.light-item-big-image {
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 700px;
+    width: 100%;
+    height: auto;
+    background-color: #FFFFFF;
+}
+
+.light-item-name-box {
+    /*background-color: #173c6c;*/
+    color: #032454;
+    font-family: "Stevie Sans - Medium", sans-serif;
+    font-size: 28px;
+}
+
+.light-item-quantity-box {
+    /*background-color: #173c6c;*/
+    color: #002e6c;
+    font-family: "Stevie Sans - Book", sans-serif;
+    font-size: 18px;
+    margin-top: -20px;
+}
+
+.light-item-price-data {
+    /*background-color: #173c6c;*/
+    color: #001025;
+    font-family: "Stevie Sans - Bold", sans-serif;
+    font-size: 48px;
+    margin-top: -20px;
+}
+
+
+.light-item-specs-box {
+    width: auto;
+    position: relative;
+    background-color: #e6eeff;
+    border: 1px solid #91b4e1;
+    border-radius: 5px;
+    font-family: "Stevie Sans - Book", sans-serif;
+    font-size: 16px;
+    color: #032454;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.light-page-add-to-cart {
+    width: auto;
+    position: relative;
+    background-color: #e6eeff;
+    border: 1px solid #91b4e1;
+    border-radius: 5px;
+    font-family: "Stevie Sans - Book", sans-serif;
+    font-size: 16px;
+    color: #032454;
+    padding: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.light-page-add-to-cart:hover {
+    background-color: #abc7ff;
+    border: 1px solid #6b8ebb;
+}
+
+.light-item-discount-text {
+    visibility: hidden;
+    background-color: #395cff;
+    border-radius: 5px;
+    width: fit-content;
+    color: #FFFFFF;
+    font-family: "Stevie Sans - Book", sans-serif;
+    font-size: 14px;
+    padding: 5px 10px 5px 10px;
+    margin: 0 0 20px 20px;
+}
+
+.light-item-about-header {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    /*background-color: #001025;*/
+    border-bottom: 1px solid #b5c8ec;
+    height: 40px;
+    width: 100%;
+}
+
+.light-item-about-text {
+    font-family: "Stevie Sans - Regular", sans-serif;
+    font-size: 24px;
+    color: #032454;
+    padding: 10px;
+}
+
+.light-item-description {
+    font-family: "Stevie Sans - Book", sans-serif;
+    font-size: 14px;
+    color: #032454;
+    padding: 10px;
+}

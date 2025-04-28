@@ -1,0 +1,77 @@
+.light-users-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 1000px;
+    color: #032454;
+    font-family: "Stevie Sans - Regular", sans-serif;
+}
+
+.light-users-header {
+    display: flex;
+    background-color: #e6eeff;
+    border: 1px solid #91b4e1;
+    border-radius: 5px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Stevie Sans - Regular", sans-serif;
+    font-size: 24px;
+    color: #032454;
+    margin-bottom: 20px;
+}
+
+.light-users-list-table {
+    margin-top: 20px;
+    width: auto;
+    height: 100%;
+    background-color: #e6eeff;
+    border: 1px solid #91b4e1;
+    border-radius: 5px;
+    overflow-y: auto;
+}
+
+.light-users-list-table::-webkit-scrollbar {
+    width: 6px;
+}
+
+.light-users-list-table::-webkit-scrollbar-thumb {
+    background-color: #91b4e1;
+    border-radius: 4px;
+}
+
+.light-user-table-container {
+    margin: 10px;
+    border-collapse: collapse;
+}
+
+.light-user-table-descriptors {
+    font-family: "Stevie Sans - Book", sans-serif;
+    font-size: 18px;
+    color: #032454;
+}
+
+.light-user-table-container th {
+    border: 1px solid #91b4e1;
+    text-align: left;
+    padding: 5px;
+    max-width: 200px;
+    overflow-x: hidden;
+    width: 15%;
+    height: 30px;
+}
+
+.light-user-table-container td {
+    position: relative;
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; /* To Ria, remove this if you want it to show the entire item name in the table cell.*/
+    border: 1px solid #91b4e1;
+    text-align: left;
+    padding: 5px;
+    height: 20px;
+    font-family: "Stevie Sans - Book", sans-serif;
+    font-size: 16px;
+    color: #032454;
+}

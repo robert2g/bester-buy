@@ -1,0 +1,121 @@
+.account-in-body-container {
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #010914;
+}
+
+.light-account-in-body-container {
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e8f1ff;
+}
+
+.account-in-body-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #001025;
+    border: 1px solid #002e6c;
+    border-radius: 10px;
+    height: 800px;
+    width: 600px;
+}
+
+.light-account-in-body-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e6eeff;
+    border: 1px solid #91b4e1;
+    border-radius: 10px;
+    height: 800px;
+    width: 600px;
+}
+
+.account-in-body-head {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+    border-bottom: 1px solid #002e6c;
+}
+
+.light-account-in-body-head {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+    border-bottom: 1px solid #91b4e1;
+}
+
+.account-in-header {
+    font-family: "Stevie Sans - Regular", sans-serif;
+    font-size: 32px;
+    color: #B6CDF2;
+    padding: 5px;
+}
+
+.light-account-in-header {
+    font-family: "Stevie Sans - Regular", sans-serif;
+    font-size: 32px;
+    color: #032454;
+    padding: 5px;
+}
+
+.account-in-text {
+    font-family: "Stevie Sans - Book", sans-serif;
+    font-size: 18px;
+    color: #B6CDF2;
+}
+
+.light-account-in-text {
+    font-family: "Stevie Sans - Book", sans-serif;
+    font-size: 18px;
+    color: #032454;
+}
+
+.account-in-logout {
+    position: relative;
+    background-color: #002e6c;
+    border: 1px solid #00469f;
+    border-radius: 5px;
+    font-family: "Stevie Sans - Book", sans-serif;
+    font-size: 16px;
+    color: #B6CDF2;
+    max-width: 500px;
+    width: 100%;
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.light-account-in-logout {
+    position: relative;
+    color: #032454;
+    background-color: #e6eeff;
+    border: 1px solid #91b4e1;
+    border-radius: 5px;
+    font-family: "Stevie Sans - Book", sans-serif;
+    font-size: 16px;
+    max-width: 500px;
+    width: 100%;
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.light-account-in-logout:hover {
+    background-color: #abc7ff;
+    border: 1px solid #6b8ebb;
+    color: #032454;
+}
+
+.account-in-logout:hover {
+    background-color: #00469f;
+}

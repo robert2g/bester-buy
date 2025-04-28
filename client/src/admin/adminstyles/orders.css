@@ -1,0 +1,110 @@
+.orders-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 1000px;
+    color: #B6CDF2;
+    font-family: "Stevie Sans - Regular", sans-serif;
+}
+
+.orders-header {
+    display: flex;
+    background-color: #001025;
+    border: 1px solid #002e6c;
+    border-radius: 5px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Stevie Sans - Regular", sans-serif;
+    font-size: 24px;
+    color: #B6CDF2;
+    margin-bottom: 20px;
+}
+
+.orders-list-table {
+    width: auto;
+    height: 100%;
+    background-color: #001025;
+    border: 1px solid #002e6c;
+    border-radius: 5px;
+    overflow-y: auto;
+}
+
+.orders-list-table::-webkit-scrollbar {
+    width: 6px;
+}
+
+.orders-list-table::-webkit-scrollbar-thumb {
+    background-color: #002e6c;
+    border-radius: 4px;
+}
+
+.orders-list-table-header {
+    padding: 10px;
+    border-bottom: 1px solid #002e6c;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.orders-list-table-header-text {
+    width: 200px;
+    font-family: "Stevie Sans - Regular", sans-serif;
+    font-size: 24px;
+    color: #B6CDF2;
+}
+
+.orders-table-container {
+    margin: 10px;
+    border-collapse: collapse;
+}
+
+.orders-table-descriptors {
+    font-family: "Stevie Sans - Book", sans-serif;
+    font-size: 18px;
+    color: #B6CDF2;
+}
+
+.orders-table-container th {
+    border: 1px solid #002e6c;
+    text-align: left;
+    padding: 5px;
+    max-width: 200px;
+    overflow-x: hidden;
+    width: 15%;
+    height: 30px;
+}
+
+.orders-table-container td {
+    position: relative;
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; /* To Ria, remove this if you want it to show the entire item name in the table cell.*/
+    border: 1px solid #002e6c;
+    text-align: left;
+    padding: 5px;
+    height: 20px;
+    font-family: "Stevie Sans - Book", sans-serif;
+    font-size: 16px;
+    color: #64beff;
+}
+
+.orders-sorting-by {
+    font-family: "Stevie Sans - Regular", sans-serif;
+    font-size: 18px;
+    color: #B6CDF2;
+    margin-right: 10px;
+}
+
+.orders-sorting-dropdown {
+    padding: 10px 10px 10px 10px;
+    height: fit-content;
+    width: fit-content;
+    font-family: "Stevie Sans - Book", sans-serif;
+    font-size: 16px;
+    color: #7f9bc9;
+    background-color: #021125;
+    border: 1px solid #032454;
+    border-radius: 5px;
+}

@@ -1,0 +1,127 @@
+.light-admin-dash-container {
+    background-color: #e6eeff;
+    display: flex;
+    justify-content: center;
+    color: #032454;
+    padding-left: 20px;
+}
+
+.light-close_icon {
+    color: #B6CDF2;
+    margin-left: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.light-grid-container {
+    display: flex;
+    height: 100vh;
+    background-color: #010914;
+    color: #B6CDF2;
+    margin: 20px;
+}
+
+#light-admin-sidebar {
+    grid-area: sidebar;
+    height: 1000px;
+    width: 300px;
+    background-color: #e6eeff;
+    border: 1px solid #91b4e1;
+    border-radius: 5px;
+    overflow-y: auto;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+
+}
+
+.light-admin-sidebar-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #91b4e1;
+}
+
+.light-admin-sidebar-title {
+    display: flex;
+    color: #032454;
+    font-family: "Stevie Sans - Regular", sans-serif;
+    font-size: 24px;
+}
+
+.light-sidebar-list-item {
+    background-color: #e6eeff;
+    border: none;
+    padding: 10px;
+    transition: background-color 0.3s ease-in-out;
+    color: #032454;
+    font-family: "Stevie Sans - Book", sans-serif;
+    font-size: 16px;
+}
+
+.light-sidebar-list-item:hover {
+    background-color: #abc7ff;
+    cursor: pointer;
+}
+
+.light-main-container {
+    grid-area: main;
+    overflow-y: auto;
+    padding: 0 20px;
+    color: rgba(255, 255, 255, 0.95);
+    display: inline;
+    float: right;
+}
+
+@media screen and (max-width: 992px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.2fr 3fr;
+        grid-template-areas:
+      'header'
+      'main';
+    }
+
+    #sidebar {
+        display: none;
+    }
+
+    .menu-icon {
+        display: inline;
+    }
+
+    .sidebar-title > span {
+        display: inline;
+    }
+}
+/* Small <= 768px */
+
+@media screen and (max-width: 768px) {
+    .main-cards {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        margin-bottom: 0;
+    }
+
+    .charts {
+        grid-template-columns: 1fr;
+        margin-top: 30px;
+    }
+
+    .admin-dash-header {
+        display: none;
+    }
+}
+
+/* Extra Small <= 576px */
+
+@media screen and (max-width: 576px) {
+    .header-left {
+        display: none;
+    }
+}
+
+.side-container {
+    display: inline;
+    float: left;
+}

@@ -1,0 +1,251 @@
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.dashboard-header {
+    display: flex;
+    background-color: #001025;
+    border: 1px solid #002e6c;
+    border-radius: 5px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Stevie Sans - Regular", sans-serif;
+    font-size: 24px;
+    color: #B6CDF2;
+}
+
+.main-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+.card:first-child {
+    background: linear-gradient(30deg, #001025, #ff63ea);
+    border: 1px solid #002e6c;
+}
+
+.card:nth-child(2) {
+    background: linear-gradient(30deg, #001025, #001998);
+    border: 1px solid #002e6c;
+}
+
+.card:nth-child(3) {
+    background: linear-gradient(30deg, #001025, #009881);
+    border: 1px solid #002e6c;
+}
+
+.card:nth-child(4) {
+    background: linear-gradient(30deg, #001025, #540098);
+    border: 1px solid #002e6c;
+}
+
+.card-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(30deg, #001025, #001025);
+    border: 1px solid #002e6c;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.card-inner > .card_icon {
+    font-size: 25px;
+}
+
+.card-title {
+    font-family: "Stevie Sans - Book", sans-serif;
+    font-size: 24px;
+    color: #B6CDF2;
+    margin: 0;
+}
+
+.card-icon {
+    height: 20px;
+    width: 20px;
+}
+
+.card-data-amount {
+    display: flex;
+    font-family: "Stevie Sans - Regular", sans-serif;
+    font-size: 32px;
+    color: #B6CDF2;
+    margin-top: 15px;
+}
+
+.dash-discount-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(30deg, #001025, #001025);
+    border: 1px solid #002e6c;
+    border-radius: 5px;
+    padding: 10px;
+    width: auto;
+    height: 400px;
+}
+
+.dash-functions-header {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #021125;
+    border: 1px solid #002e6c;
+    border-radius: 5px;
+    font-family: "Stevie Sans - Regular", sans-serif;
+    font-size: 24px;
+    color: #B6CDF2;
+}
+
+.dash-discount-container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #021125;
+    border: 1px solid #002e6c;
+    border-radius: 5px;
+    height: 400px;
+    width: 30%;
+}
+
+.dash-form-title {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #021125;
+    border: 1px solid #002e6c;
+    border-radius: 5px;
+    font-family: "Stevie Sans - Book", sans-serif;
+    font-size: 16px;
+    color: #B6CDF2;
+}
+
+.dash-form-buttons {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+
+.dash-form-button {
+    padding: 5px;
+    margin-bottom: 20px;
+    background-color: #021125;
+    border: 1px solid #002e6c;
+    border-radius: 5px;
+    display: flex;
+    color: #B6CDF2;
+    font-family: "Stevie Sans - Book", sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.dash-form-group {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.dash-form-input {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+    background-color: #021125;
+    border: 1px solid #002e6c;
+    border-radius: 5px;
+    color: #B6CDF2;
+    font-family: "Stevie Sans - Book", sans-serif;
+    font-size: 16px;
+    width: auto;
+}
+
+.dash-form-label {
+    display: flex;
+    align-items: center;
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+.dash-form-noti {
+    margin: 15px 0;
+    padding: 10px;
+    background-color: #021125;
+    border: 1px solid #002e6c;
+    border-radius: 5px;
+}
+
+.dash-form-button:hover {
+    background-color: #002e6c;
+}
+
+.dash-functions-seperator {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.dash-discount-table {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #021125;
+    border: 1px solid #002e6c;
+    border-radius: 5px;
+    height: 400px;
+    width: 70%;
+    text-align: left;
+    overflow-y: auto;
+}
+
+.dash-table-descriptors {
+    font-family: "Stevie Sans - Book", sans-serif;
+    font-size: 18px;
+    color: #B6CDF2;
+}
+
+.discount-table-container {
+    border-collapse: collapse;
+}
+
+.discount-table-container th {
+    border: 1px solid #002e6c;
+    text-align: left;
+    padding: 5px;
+    overflow-x: hidden;
+    width: 25%;
+    height: 30px;
+}
+
+.discount-table-container td {
+    position: relative;
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; /* To Ria, remove this if you want it to show the entire item name in the table cell.*/
+    border: 1px solid #002e6c;
+    text-align: left;
+    padding: 5px;
+    height: 20px;
+    font-family: "Stevie Sans - Book", sans-serif;
+    font-size: 16px;
+    color: #64beff;
+}
